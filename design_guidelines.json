@@ -1,0 +1,145 @@
+{
+  "identity": {
+    "persona": "E1 - The Anti-AI Designer",
+    "principles": [
+      "Fusion over Imitation: Mix disparate disciplines.",
+      "Emotion First: Design for feeling, not trends.",
+      "Content is King: Direct the user's emotion like a film scene.",
+      "Zoom In: Use bold focus on details.",
+      "Negative Space: Value empty areas.",
+      "Contrast: Light vs Dark, Rough vs Smooth."
+    ],
+    "anti_patterns": [
+      "No generic 'Inter' for headings.",
+      "No center-everything layouts.",
+      "No gradient overload.",
+      "No generic 'SaaS Blue' (use Electric Indigo).",
+      "No 'Teal' for CTAs."
+    ]
+  },
+  "theme": {
+    "mode": "light",
+    "strategy": "The Performance Pro (Light Mode Variant)",
+    "emotional_goal": "Professional, Magical, Efficient, High-Tech",
+    "colors": {
+      "primary": {
+        "name": "Electric Indigo",
+        "hex": "#4f46e5",
+        "tailwind": "indigo-600",
+        "usage": "Primary CTAs, Active States, Key Brand Elements"
+      },
+      "secondary": {
+        "name": "Slate Obsidian",
+        "hex": "#0f172a",
+        "tailwind": "slate-900",
+        "usage": "Headings, Strong Text, Secondary Buttons"
+      },
+      "accent": {
+        "name": "Creative Purple",
+        "hex": "#a855f7",
+        "tailwind": "purple-500",
+        "usage": "Micro-interactions, 'AI Magic' highlights (sparingly)"
+      },
+      "background": {
+        "main": "#ffffff",
+        "secondary": "#f8fafc",
+        "tailwind_main": "bg-white",
+        "tailwind_secondary": "bg-slate-50"
+      },
+      "surface": {
+        "card": "#ffffff",
+        "border": "#e2e8f0",
+        "tailwind_card": "bg-white border border-slate-200 shadow-sm",
+        "tailwind_border": "border-slate-200"
+      },
+      "text": {
+        "primary": "#0f172a",
+        "secondary": "#64748b",
+        "tailwind_primary": "text-slate-900",
+        "tailwind_secondary": "text-slate-500"
+      },
+      "forbidden": ["#1B93A4", "#7351B7"]
+    }
+  },
+  "typography": {
+    "headings": {
+      "family": "Outfit, sans-serif",
+      "weights": ["500", "600", "700"],
+      "style": "Modern, Geometric, Tech-Forward",
+      "usage": "All H1-H6, Landing Page Heros, Feature Titles"
+    },
+    "body": {
+      "family": "Inter, sans-serif",
+      "weights": ["400", "500"],
+      "style": "Clean, Legible, Neutral",
+      "usage": "Paragraphs, UI Labels, Inputs, Data Tables"
+    },
+    "rules": [
+      "Headings > 32px must use tracking-tight.",
+      "Overlines must be Uppercase + tracking-widest + text-xs.",
+      "Line height: leading-none for headers, leading-relaxed for body."
+    ]
+  },
+  "layout": {
+    "grid_system": {
+      "dashboard": "Bento Grid (High Density)",
+      "marketing": "Tetris Grid (Asymmetric & Artistic)",
+      "gap": "gap-6 or gap-8"
+    },
+    "spacing": {
+      "section_padding": "py-24",
+      "container_padding": "px-4 sm:px-6 lg:px-8",
+      "element_spacing": "space-y-6"
+    },
+    "container": {
+      "max_width": "max-w-7xl mx-auto"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-indigo-600 text-white hover:bg-indigo-700 shadow-md transition-all duration-200 ease-in-out hover:-translate-y-0.5",
+      "secondary": "bg-white text-slate-900 border border-slate-200 hover:bg-slate-50 shadow-sm transition-all duration-200",
+      "ghost": "text-slate-600 hover:text-indigo-600 hover:bg-indigo-50"
+    },
+    "cards": {
+      "style": "bg-white border border-slate-200 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200",
+      "padding": "p-6 or p-8"
+    },
+    "inputs": {
+      "style": "bg-white border-slate-200 focus:border-indigo-500 focus:ring-indigo-500 rounded-md shadow-sm"
+    },
+    "visual_enhancers": {
+      "glass": "bg-white/80 backdrop-blur-md border-white/20",
+      "gradients": "Avoid full backgrounds. Use subtle mesh gradients in 'AI Magic' sections only.",
+      "shadows": "shadow-sm for UI, shadow-xl for floating elements (modals, dropdowns)."
+    }
+  },
+  "images": {
+    "hero_bg": "https://images.unsplash.com/photo-1759771963975-8a4885446f1f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjV8MHwxfHNlYXJjaHwxfHxmdXR1cmlzdGljJTIwZGlnaXRhbCUyMHdhdmUlMjBwYXJ0aWNsZXMlMjBwdXJwbGV8ZW58MHx8fHwxNzcyMzU1NjIxfDA&ixlib=rb-4.1.0&q=85",
+    "influencer_selfie": "https://images.unsplash.com/photo-1758273238139-e6cb4d330fa1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTV8MHwxfHNlYXJjaHwxfHxmYXNoaW9uJTIwaW5mbHVlbmNlciUyMHNlbGZpZSUyMHZpZGVvfGVufDB8fHx8MTc3MjM1NTYyMHww&ixlib=rb-4.1.0&q=85",
+    "influencer_group": "https://images.unsplash.com/photo-1699120491601-37e4a6041b83?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTV8MHwxfHNlYXJjaHwzfHxmYXNoaW9uJTIwaW5mbHVlbmNlciUyMHNlbGZpZSUyMHZpZGVvfGVufDB8fHx8MTc3MjM1NTYyMHww&ixlib=rb-4.1.0&q=85",
+    "ai_abstract": "https://images.unsplash.com/photo-1704643770744-154e115d454d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjV8MHwxfHNlYXJjaHwzfHxmdXR1cmlzdGljJTIwZGlnaXRhbCUyMHdhdmUlMjBwYXJ0aWNsZXMlMjBwdXJwbGV8ZW58MHx8fHwxNzcyMzU1NjIxfDA&ixlib=rb-4.1.0&q=85",
+    "office_team": "https://images.unsplash.com/photo-1758873271949-742d6648b6b0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHw0fHxtb2Rlcm4lMjBjcmVhdGl2ZSUyMG9mZmljZSUyMHRlYW0lMjB3b3JraW5nfGVufDB8fHx8MTc3MjM1NTYxM3ww&ixlib=rb-4.1.0&q=85"
+  },
+  "specific_instructions": {
+    "landing_page": {
+      "hero": "Split layout. Left: Big Bold Value Prop + 'Generate for Free' CTA. Right: Interactive 'Before/After' slider or video mockup using the influencer images.",
+      "features": "Bento Grid layout highlighting 'Motion Preservation', 'Face Swap', '60s Limit', 'High Quality'.",
+      "pricing": "Three cards. 'Starter' (Standard), 'Pro' (Highlighted/Scale), 'Agency' (Minimal). Pro card should have a 'Most Popular' badge and a slight border glow (indigo-500/20)."
+    },
+    "dashboard": {
+      "overview": "Top: Credit Balance (Big Number). Middle: Quick Action 'New Reel'. Bottom: Recent Jobs Table.",
+      "create_flow": "Step-by-step wizard. Step 1: Upload Ref Video (Drag & Drop zone). Step 2: Upload Face (Circular preview). Step 3: Prompt (Text area with 'Magic' icon). Step 4: Review.",
+      "job_card": "Thumbnail on left, status badge (Processing/Done) on right. Hover to see 'Download' button."
+    }
+  },
+  "universal_guidelines": [
+    "Do NOT use gradients for text.",
+    "Do NOT use center alignment for long text blocks.",
+    "Use 'sonner' for toasts.",
+    "Use 'lucide-react' for icons.",
+    "Ensure all interactive elements have data-testid attributes.",
+    "Respect 'prefers-reduced-motion'.",
+    "Use 'Outfit' for all headings and 'Inter' for body text."
+  ]
+}
